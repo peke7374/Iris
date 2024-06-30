@@ -514,24 +514,24 @@ return function(Iris: Types.Internal)
 
 	Iris._utility = widgets
 	
-	local RootLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Root.lua"))()
-	local WindowLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Window.lua"))()
+	local RootLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Root.lua"))()
+	local WindowLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Window.lua"))()
 	
-	local MenuLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Menu.lua"))()
+	local MenuLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Menu.lua"))()
 	
-	local FormatLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Format.lua"))()
+	local FormatLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Format.lua"))()
 	
-	local TextLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Text.lua"))()
-	local ButtonLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Button.lua"))()
-	local CheckboxLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Checkbox.lua"))()
-	local RadioLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/RadioButton.lua"))()
+	local TextLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Text.lua"))()
+	local ButtonLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Button.lua"))()
+	local CheckboxLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Checkbox.lua"))()
+	local RadioLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/RadioButton.lua"))()
 	
-	local TreeLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Tree.lua"))()
-	local InputLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Input.lua"))()
-	local ComboLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Combo.lua"))()
-	local PlotLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Plot.lua"))()
+	local TreeLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Tree.lua"))()
+	local InputLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Input.lua"))()
+	local ComboLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Combo.lua"))()
+	local PlotLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Plot.lua"))()
 	
-	local TableLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Table.lua"))()
+	local TableLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/WidgetRequires/Table.lua"))()
 
 
 	RootLoad(Iris, widgets)
