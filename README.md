@@ -8,7 +8,7 @@
 
 ```
 local IrisLoad = loadstring(game:HttpGet("https://raw.githubusercontent.com/peke7374/Iris/main/Iris.lua"))()
-local Iris = IrisLoad.Init()
+local Iris = IrisLoad.Init(game:GetService("CoreGui"))
 
 Iris:Connect(Iris.ShowDemoWindow)
 ```
